@@ -14,7 +14,7 @@ public class ProducerDemo {
         // Step1: Create producer properties
         Properties properties = new Properties();
 
-        /* Old way of setting properties
+        /* Old way of setting properties. Prone to typo.
         properties.setProperty("bootstrap.servers", bootstrapServers);
         properties.setProperty("key.serializer", StringSerializer.class.getName());
         properties.setProperty("value.serializer", StringSerializer.class.getName());
